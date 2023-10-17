@@ -684,7 +684,7 @@ export function Settings() {
             {checkingUpdate ? (
               <LoadingIcon />
             ) : hasNewVersion ? (
-              <Link href={updateUrl} target="_blank" className="link">
+              <Link href="https://www.bluelsqkj.com/" target="_blank" className="link">
                 {Locale.Settings.Update.GoToUpdate}
               </Link>
             ) : (
