@@ -145,7 +145,7 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          蓝衫ChatGPT（进阶版）
+          蓝衫ChatGPT 进阶版
         </div>
         <div className={styles["sidebar-sub-title"]}>
           Build your own AI assistant. <a href="https://www.bluelsqkj.com/chatgptpro#div1">访问码购买</a>
