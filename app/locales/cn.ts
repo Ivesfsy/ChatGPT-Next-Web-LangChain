@@ -326,7 +326,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "## 🎉 欢迎来到蓝衫科技人工智能对话平台 😎 \n\n### 用户体验\n- 轻量级客户端：蓝衫ChatGPT提供体积极小的跨平台客户端（Linux/Windows/MacOS）。\n- Markdown支持：完整的 Markdown 支持，包括LaTex公式、Mermaid流程图和代码高亮等。\n- 用户界面：精心设计的UI，支持响应式设计、深色模式及PWA。\n- 快速加载：首屏加载速度极快，仅约100kb，支持流式响应。\n- 隐私安全：所有数据均保存在用户的浏览器中，确保隐私。\n- 预制角色功能：方便地创建、分享和调试个性化对话。\n- 内置提示：提供海量的中英文提示。\n- 自动压缩聊天记录：在节省Token的同时，支持超长对话。\n- 多语言支持：包括英语、简体中文、繁体中文、日语等。\n\n### 拓展功能\n基于LangChain的插件功能，目前支持以下插件：\n\n- 搜索：SerpAPI、BingSerpAPI、DuckDuckGo\n- 计算：Calculator\n- 网络请求：WebBrowser\n- 其他：Wiki、DALL-E3",
+    BotHello: "## 🎉 欢迎来到人工智能对话平台 😎 \n\n### 用户体验\n- 轻量级客户端：ChatGPT提供体积极小的跨平台客户端（Linux/Windows/MacOS）。\n- Markdown支持：完整的 Markdown 支持，包括LaTex公式、Mermaid流程图和代码高亮等。\n- 用户界面：精心设计的UI，支持响应式设计、深色模式及PWA。\n- 快速加载：首屏加载速度极快，仅约100kb，支持流式响应。\n- 隐私安全：所有数据均保存在用户的浏览器中，确保隐私。\n- 预制角色功能：方便地创建、分享和调试个性化对话。\n- 内置提示：提供海量的中英文提示。\n- 自动压缩聊天记录：在节省Token的同时，支持超长对话。\n- 多语言支持：包括英语、简体中文、繁体中文、日语等。\n\n### 拓展功能\n基于LangChain的插件功能，目前支持以下插件：\n\n- 搜索：SerpAPI、BingSerpAPI、DuckDuckGo\n- 计算：Calculator\n- 网络请求：WebBrowser\n- 其他：Wiki、DALL-E3",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
